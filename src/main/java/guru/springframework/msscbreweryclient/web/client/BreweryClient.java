@@ -30,7 +30,7 @@ public class BreweryClient {
 
     //Beer client
     public BeerDto getBeerById(UUID uuid){
-        return restTemplate.getForObject(apihost + BEER_PATH_V1 + uuid.toString(), BeerDto.class);
+        return restTemplate.getForObject(apihost + BEER_PATH_V1 + "/" + uuid.toString(), BeerDto.class);
     }
 
     public URI saveNewBeer(BeerDto beerDto){

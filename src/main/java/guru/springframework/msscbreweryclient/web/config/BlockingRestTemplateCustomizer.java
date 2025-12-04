@@ -11,9 +11,7 @@ import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-/**
- * Created by jt on 2019-08-08.
- */
+
 @Component
 public class BlockingRestTemplateCustomizer implements RestTemplateCustomizer {
 
