@@ -1,7 +1,7 @@
 package guru.springframework.msscbreweryclient.bootstrap;
 
-import guru.springframework.msscbrewery.domain.Beer;
-import guru.springframework.msscbrewery.repositories.BeerRepository;
+import guru.springframework.msscbreweryclient.domain.Beer;
+import guru.springframework.msscbreweryclient.repositories.BeerRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

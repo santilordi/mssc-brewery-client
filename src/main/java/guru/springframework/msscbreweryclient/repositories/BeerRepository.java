@@ -1,6 +1,6 @@
 package guru.springframework.msscbreweryclient.repositories;
 
-import guru.springframework.msscbrewery.domain.Beer;
+import guru.springframework.msscbreweryclient.domain.Beer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
